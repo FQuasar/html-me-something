@@ -1,0 +1,15 @@
+
+html {
+    height: 100%;
+    
+}
+
+
+body {
+    background-color : rgb(213, 243, 226);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+    }
+   p {
+      color : rgb(4, 46, 4);
+    }
