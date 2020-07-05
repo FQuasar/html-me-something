@@ -4,12 +4,16 @@ html {
     
 }
 
-
 body {
     background-color : rgb(213, 243, 226);
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     
     }
-   p {
+
+p {
       color : rgb(4, 46, 4);
     }
+pre {
+    color : rgb(40, 5, 73);
+    font-size: 125%;
+}
