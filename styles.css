@@ -1,19 +1,46 @@
 
 html {
     height: 100%;
-    
 }
 
 body {
     background-color : rgb(213, 243, 226);
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    
+    width : 90%;
+    margin: 0 auto;
+    text-align: center;
     }
 
 p {
-      color : rgb(4, 46, 4);
-    }
+    color : rgb(4, 46, 4);
+}
+
 pre {
     color : rgb(40, 5, 73);
     font-size: 125%;
+}
+
+/*structural*/
+.section-container {
+    padding-top: 15px;
+}
+
+.center {
+    max-width: 50%;
+    margin: auto;
+    text-align: center;
+}
+
+/* Animations */
+.slow-hover {
+    box-shadow: 0 1px rgba(0,0,0,0.15);
+    transition: box-shadow 0.1s ease-in-out;
+}
+
+.slow-hover:hover {
+    box-shadow: 0 5px 15px rgba(0,0,0,0.75);
+}
+
+ul {
+float: left;
 }
